@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Kalle's blog Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+
+<meta name="author" content="Kalle Saari" />
+<meta name="description" content="After nine months on Octopress, I've decided to move on. I should start by saying that Octopress is a great platform for static blogging: it's powerful, flexible, well-supported, well-integrated with GitHub pages, and has tools and plugins to do just about anything you might imagine. There's only one problem: It's written in Ruby. Now I don't have anything against Ruby per se. However, it was starting to seem a bit awkward that a blog called Pythonic Perambulations was built with Ruby, especially given the availability of so many excellent Python-based static site generators (Hyde, Nikola, and Pelican in particular). Additionally, a few things with Octopress were starting to become difficult:" />
+<meta name="keywords" content="">
+<meta property="og:site_name" content="Kalle's blog"/>
+<meta property="og:title" content="Second Test post"/>
+<meta property="og:description" content="After nine months on Octopress, I've decided to move on. I should start by saying that Octopress is a great platform for static blogging: it's powerful, flexible, well-supported, well-integrated with GitHub pages, and has tools and plugins to do just about anything you might imagine. There's only one problem: It's written in Ruby. Now I don't have anything against Ruby per se. However, it was starting to seem a bit awkward that a blog called Pythonic Perambulations was built with Ruby, especially given the availability of so many excellent Python-based static site generators (Hyde, Nikola, and Pelican in particular). Additionally, a few things with Octopress were starting to become difficult:"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/blog/2016/10/17/test-posting-2/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2016-10-17 00:00:00-07:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="/author/kalle-saari.html">
+<meta property="article:section" content="tests"/>
+<meta property="og:image" content="">
+
+  <title>Kalle's blog &ndash; Second Test post</title>
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="" title="">
+      </a>
+      <h1><a href=""></a></h1>
+
+<p>Investigations into data</p>
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/ksaari" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </aside>
+  <main>
+    <nav>
+      <a href="">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+
+      <a href="/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article>
+  <header>
+    <h1 id="test-posting-2">Second Test post</h1>
+    <p>
+          Posted on Oct 17, 2016 in <a href="/category/tests.html">tests</a>
+
+
+    </p>
+  </header>
+  <div>
+    
+
+<p>After nine months on Octopress, I've decided to move on.</p>
+<p>I should start by saying that Octopress is a great platform for static
+blogging: it's powerful, flexible, well-supported, well-integrated with
+GitHub pages, and has tools and plugins to do just about anything you might
+imagine.  There's only one problem:</p>
+<p>It's written in Ruby.</p>
+<p>Now I don't have anything against Ruby per se.  However, it was starting to
+seem a bit awkward that a blog called <em>Pythonic Perambulations</em>
+was built with Ruby, especially given the availability of so many
+excellent Python-based static site generators
+(<a href="http://hyde.github.io/">Hyde</a>,
+<a href="http://nikola.ralsina.com.ar/">Nikola</a>,
+and <a href="http://getpelican.com">Pelican</a> in particular).</p>
+<p>Additionally, a few things with Octopress were starting to become difficult:
+</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">Image</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">Image</span><span class="p">(</span><span class="s1">&#39;kuva.PNG&#39;</span><span class="p">))</span>
+</pre></div>
+
+
+<p><img title="kuva" alt="kuva" src="/images/output_3_0.png" width="300" height="200"> </p>
+<figure class='code'>
+<figcaption><span>Hello Kalle Saari hello_world.py</span> <a href='/downloads/code/hello_world.py'>download</a></figcaption>
+
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;hello_world&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+</figure>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+</article>
+
+    <footer>
+<p>&copy; Kalle Saari </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Kalle's blog ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+</body>
+</html>
